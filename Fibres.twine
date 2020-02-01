@@ -1,0 +1,995 @@
+<!-- UUID://A3DAC051-20F3-40B5-9017-681E452E6D26// --><tw-storydata name="Fibres \n[Part 1]" startnode="1" creator="Tweego" creator-version="2.1.0+9ea2fab" ifid="A3DAC051-20F3-40B5-9017-681E452E6D26" zoom="1" format="SugarCube" format-version="2.30.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="100,100" size="100,100">No signs of struggle.
+Items in room are neatly placed but have dust on them.
+No signs of other people or outside interference.
+
+
+Joseph Howard. Aged 29. Writer.
+Apparent suicide by hanging.
+
+&lt;&lt;timed 5s&gt;&gt;[[Start|NicolaHome_1]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="NicolaHome_1" tags="" position="225,100" size="100,100">Detective Nicola Riley, newly promoted to the position, awakens for another day. She gets ready while trying not to disturb her fiance, George.  &quot;Only another week!&quot; she muttered excitedly to herself. &quot;Crap!&quot;
+
+&lt;&lt;timed 10s&gt;&gt;George wakes up.&lt;&lt;/timed&gt;&gt; 
+
+&lt;&lt;timed 15s&gt;&gt;&quot;Sorry babe, go back to sleep.&quot;&lt;&lt;/timed&gt;&gt; 
+&lt;&lt;timed 20s&gt;&gt;&quot;Okay...&quot;
+
+[[Go to work|Station_1]]
+[[Talk to George|George_1]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="George_1" tags="" position="350,100" size="100,100">In his half-awake state, George jokes, &quot;Why are you trying to be so secretive?&quot;
+
+&quot;I&#39;m a detective. It&#39;s part of our job to be secretive!&quot;
+&quot;So secretive that you don&#39;t have time to say goodbye?&quot;
+&quot;Oh fine&quot;, Nicola says, &quot;but you have to get that silly head of yours back to sleep.&quot;
+
+[[Kiss goodbye|Station_1]]</tw-passagedata><tw-passagedata pid="4" name="About_Fibres" tags="" position="475,100" size="100,100">Fibres was written by Lachlan Birdsey and edited by Jessica McCandless.
+
+----
+&#39;&#39;Notes:&#39;&#39;
+Many passages use time release functions. If you get to a passage and there is no text, the text seems to end abruptly and there is no link to another passage; please refresh. 
+If that does not work contact lachlan@tiltthewindmill.net with the appropriate information.
+
+//Fibres// is deployed in parts. Currently only part 1 exists. Each part is meant to be played in it&#39;s entirety, therefore no save points exist. 
+
+Part 1 shouldn&#39;t take more than 25 minutes to complete.
+
+There is also a companion soundtrack in the works. Parts of it are being uploaded to tiltthewindmill.bandcamp.com.
+As of now it is not complete.
+
+[[About Tilt The Windmill|http://tiltthewindmill.net/games/about.html]]
+
+&lt;&lt;back&gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="CSS" tags="stylesheet8" position="600,100" size="100,100">a {text-decoration:none !important}
+body { color:rgb(255,255,255) !important }
+body { text-align:left; width:70% !important }
+body { font-size:75% !important }
+
+.blur{
+/* sets transition */
+transition: all 0.25s ease-in-out;
+-moz-transition: all 0.25s ease-in-out;
+-webkit-transition: all 0.25s ease-in-out;
+}
+
+.blur:hover{
+color:transparent;
+/*adjusts blur amount with text shadow */
+text-shadow: #555 0 0 5px;
+}
+
+.blur::-moz-selection{
+background-color:Transparent;
+color:transparent;
+}
+
+.blur::selection {
+background-color:Transparent;
+color:transparent;
+}
+
+.unblur::-moz-selection{
+background-color:Transparent;
+color:transparent;
+}
+
+.unblur::selection {
+background-color:Transparent;
+color:transparent;
+}
+
+.unblur{
+color:transparent;
+/*adjusts blur amount with text shadow */
+text-shadow: #555 0 0 5px;
+}
+
+.unblur:hover{
+/* sets transition */
+transition: all 0.25s ease-in-out;
+-moz-transition: all 0.25s ease-in-out;
+-webkit-transition: all 0.25s ease-in-out;
+}
+
+.dark{
+color:rgb(10,10,10);
+}
+
+
+#sidebar {visibility:hidden!important;}
+
+#footer{display:none!important;}
+
+#toolbar{display:none!important;}
+
+#passages{font-size:14px;
+border-left: 0px !important; margin:200px 0px 0px 200px !important;}</tw-passagedata><tw-passagedata pid="6" name="Vars" tags="" position="725,100" size="100,100">&lt;&lt;silently&gt;&gt;
+&lt;&lt;set $food = false&gt;&gt;
+&lt;&lt;set $bath = false&gt;&gt;
+&lt;&lt;set $tv = 0&gt;&gt;
+&lt;&lt;endsilently&gt;&gt;</tw-passagedata><tw-passagedata pid="7" name="Station_1" tags="" position="850,100" size="100,100">Nicola arrives at the Police Station. Filled with all the typical traits that come with it: bad coffee, corruption and an angry chief.
+
+Though Nicola is a detective, she still has to work in the bullpen: A large room with 16 desks, all with small partitions allowing for two people to work at a desk.  &quot;The detectives at least get the &quot;quiet&quot; corner&quot; she thinks optimistically.
+
+[[Get to work|NicolaDesk_1]]
+[[Talk to people|Station_2]]</tw-passagedata><tw-passagedata pid="8" name="Station_2" tags="" position="975,100" size="100,100">Nicola looks around. &quot;I might as well ingest some of this terrible dark liquid known as coffee.&quot;
+
+By the coffee pot is Kim, the only other female detective. Kim is 5 years Nicola&#39;s senior in both career and life. They have almost nothing in common besides the job and an impending marriage. Beyond the usual morning pleasantries, conversation is a no-go.
+
+[[Get to work|NicolaDesk_1]]</tw-passagedata><tw-passagedata pid="9" name="Greg_3a" tags="" position="1100,100" size="100,100">Greg harrumphs and goes back to work.
+
+[[Start work|NicolaDesk_2]]
+&lt;&lt;set $greg3a = true&gt;&gt;</tw-passagedata><tw-passagedata pid="10" name="StoryMenu" tags="" position="1225,100" size="100,100">[[About|About_Fibres]]</tw-passagedata><tw-passagedata pid="11" name="StoryAuthor" tags="" position="100,225" size="100,100">&lt;html&gt;&lt;a href=&quot;http://tiltthewindmill.net/games/about.html&quot;&gt;Tilt The Windmill&lt;/a&gt;&lt;/html&gt;</tw-passagedata><tw-passagedata pid="12" name="Coroner_3" tags="" position="225,225" size="100,100">Dr. Asher continued.
+&quot;I compared this years current stats to each year in the previous decade and quite frankly, it makes little sense.&quot;
+
+&lt;&lt;timed 5s&gt;&gt;Nicola, still angry and now baffled, asks &quot;I assume George is part your stats?&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 9s&gt;&gt;&quot;Yes. So is Joseph Howard.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 12s&gt;&gt;&quot;You gave me that?!&quot; Nicola yelled.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 16s&gt;&gt;&quot;Sorry. I was hoping you might see a connection yourself.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 20s&gt;&gt;Outraged, Nicola stormed out of the Doctor&#39;s office, slamming the double doors as hard as she could.
+
+[[next|Coroner_4]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="13" name="Coroner_5" tags="" position="350,225" size="100,100">&quot;Yes. It&#39;s rather perplexing isn&#39;t it?&quot; Dr. Asher liked rhetorical questions. Nicola thought it made her seem cocky.
+
+&lt;&lt;timed 5s&gt;&gt;Dr. Asher continued &quot;I managed to get the rope from five of the hangings. I got my assistants to run some tests on each of the ropes. This is where it gets a litte weird.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 13s&gt;&gt;Nicola&#39;s eyebrows raised.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 15s&gt;&gt;&quot;All the rope is made entirely out of organic materials, no synthetics apart from a cap on an end of each rope. We&#39;ve found that each of these ropes are the same age with a 3 day margin of error.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 23s&gt;&gt;Nicola&#39;s interest was piqued.
+
+[[next|Coroner_6]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="NicolaDesk_1" tags="" position="475,225" size="100,100">Arriving at her desk Nicola finds that her companion is already there hard at work.
+
+Detective Greg. He’s the oldest member of the department being in his late 60s or early 70s. Nicola is never sure which.
+
+[[Talk to Greg|Greg_1]]
+[[Start Work|NicolaDesk_2]]</tw-passagedata><tw-passagedata pid="15" name="Greg_1" tags="" position="600,225" size="100,100">&quot;Good Morning, Greg&quot;
+Greg lets out a grumble.
+&quot;Okay. Bad morning it is.&quot;
+
+[[Continue to talk|Greg_2]]
+[[Start work|NicolaDesk_2]]</tw-passagedata><tw-passagedata pid="16" name="Greg_2" tags="" position="725,225" size="100,100">&quot;So, anything interesting for you today?&quot;
+&quot;The usual.&quot;
+
+&quot;Ah Greg, master of surprise.&quot; Nicola remarks sarcastically.
+&quot;What was that?&quot;
+
+[[&quot;Nothing&quot;|Greg_3a]]
+[[&quot;You&#39;re a master of surprise&quot;|Greg_3b]]
+[[Get to work|NicolaDesk_2]]
+&lt;&lt;silently&gt;&gt;
+&lt;&lt;set $greg3a = false&gt;&gt;
+&lt;&lt;set $greg3b = false&gt;&gt;
+&lt;&lt;endsilently&gt;&gt;</tw-passagedata><tw-passagedata pid="17" name="Greg_3b" tags="" position="850,225" size="100,100">&quot;Why thank you.&quot; Greg says sarcastically.
+
+
+[[Start work|NicolaDesk_2]]
+&lt;&lt;set $greg3b = true&gt;&gt;</tw-passagedata><tw-passagedata pid="18" name="Coroner_2a" tags="" position="975,225" size="100,100">&quot;It started a little while ago. Since the 20th of April, there&#39;s been a massive upturn in suicides.&quot;
+
+&lt;&lt;timed 4s&gt;&gt;Nicola swallowed loudly.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 7s&gt;&gt;&quot;Particularly in unexpected suicides where the item of choice is-&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 10s&gt;&gt;&quot;A noose?&quot; Nicola interrupted.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 13s&gt;&gt;&quot;Well, to be precise, rope. Nooses can be made from any adequately long bit of cable. 98% of suicides since the 20th have been exclusively rope.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 19s&gt;&gt;Nicola stared angrily at Dr. Asher
+
+[[next|Coroner_3]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="19" name="Coroner_4" tags="" position="1100,225" size="100,100">Nicola slumped herself against the wall.
+
+&lt;&lt;timed 6s&gt;&gt;&quot;Pull yourself together, it&#39;s been ages.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 10s&gt;&gt;Just like a light-switch, Nicola composed herself. She wiped the few tears from her eyes and walked back into the Doctor&#39;s office. She sits down.
+
+[[&quot;So, this link...&quot;|Coroner_5]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="20" name="Coroner_6" tags="" position="1225,225" size="100,100">&quot;If you thought that was weird, prepare yourself.&quot;
+
+&lt;&lt;timed 5s&gt;&gt;Nicola had never seen Dr. Asher so excited. &quot;I guess her education is finally paying off here.&quot; she joked to herself.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 10s&gt;&gt;Dr. Asher continued. &quot;On the noosed part of the rope, right at the part that would be situated behind the victims neck, we found a tiny amount of a rather thick liquid.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 19s&gt;&gt;[[&quot;Your point is?&quot;|Coroner_7]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="21" name="NicolaDesk_2" tags="" position="100,350" size="100,100">...booting...
+
+[[&quot;Turn on faster!&quot;|NicolaDesk_3]]
+[[Wait patiently.|NicolaDesk_3]]
+[[Look around.|Station_3]]</tw-passagedata><tw-passagedata pid="22" name="Station_3" tags="" position="225,350" size="100,100">Everyone is here, doing their normal tasks.
+
+&lt;&lt;back&gt;&gt;</tw-passagedata><tw-passagedata pid="23" name="NicolaBedroom_1" tags="" position="350,350" size="100,100">Upon opening the door, Nicola turns white and freezes.
+&lt;&lt;linkreplace &quot;...&quot;&gt;&gt;
+Hanging from the ceiling fan is a rope with a noose. 
+The noose contains George&#39;s neck.
+
+Nicola faints.
+
+[[...|NicolaBedroom_2]]
+&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="24" name="NicolaBedroom_2" tags="" position="475,350" size="100,100">Nicola awakens to find the same sight as before.
+
+[[#hh8&amp;73h9@(8|NicolaBedroom_3]]</tw-passagedata><tw-passagedata pid="25" name="NicolaBedroom_3" tags="" position="600,350" size="100,100">&quot;Oh god, what have you done?&quot;
+
+[[Cut George Down|NicolaBedroom_4b]]
+[[Investigate|NicolaBedroom_4]]
+[[Call 911|NicolaBedroom_4a]]
+
+&lt;&lt;silently&gt;&gt;
+&lt;&lt;set $call911 = false&gt;&gt;
+&lt;&lt;endsilently&gt;&gt;</tw-passagedata><tw-passagedata pid="26" name="Coroner_2" tags="" position="725,350" size="100,100">&quot;Yes I did.&quot;
+
+Dr. Asher was always straight to the point. Never any small-talk, unless truly necessary.
+
+&quot;I&#39;ve had this feeling, hunch if you will, about this for a little while now.&quot;
+
+&quot;Go on.&quot; Nicola instructed.
+
+&quot;Please take a seat first.&quot;
+
+[[Sit Down|Coroner_2a]]
+[[&quot;I think I&#39;ll stand.&quot;|Coroner_2a]]</tw-passagedata><tw-passagedata pid="27" name="Coroner_7" tags="" position="850,350" size="100,100">&quot;The point is, is that we found this on all five ropes at exactly the same place. Initially, we thought that it was something from the scene of one of the hangings. But after a second rope had it, we had to test the other three.&quot;
+
+&lt;&lt;timed 5s&gt;&gt;&quot;What is the liquid made of?&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 7s&gt;&gt;&quot;It&#39;s hard to say. It&#39;s more or less a combination of things. High-level narcotics and morphine to put it simply.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 11s&gt;&gt;Nicola brought up enough courage and asked &quot;Was one of these ropes George&#39;s?&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 14s&gt;&gt;&quot;Yes.&quot; &lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 16s&gt;&gt;&quot;Are you saying that he didn&#39;t kill himself?&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 19s&gt;&gt;&quot;Umm.&quot; Nicola had never seen Dr. Asher pause mid answer. Or even &quot;um and ah&quot; for that matter.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 25s&gt;&gt;[[&quot;We&#39;re not sure&quot;|Coroner_8]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="28" name="NicolaDesk_3" tags="" position="975,350" size="100,100">&quot;Welcome. Please login.&quot;
+
+&lt;&lt;linkreplace &quot;Enter user name &amp; password&quot;&gt;&gt;&quot;Welcome Nicola.
+You have no new cases assigned to you.&quot;
+&lt;&lt;linkreplace &quot;...&quot;&gt;&gt;Another dull day it seems.
+
+[[Work|NicolaDesk_4]]&lt;&lt;/linkreplace&gt;&gt;
+&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="29" name="NicolaHome_2" tags="" position="1100,350" size="100,100">Returning home, Nicola tries to find George.
+
+&lt;&lt;linkreplace &quot;Check kitchen.&quot;&gt;&gt;Not there.&lt;&lt;/linkreplace&gt;&gt;
+&lt;&lt;linkreplace &quot;Check living room.&quot;&gt;&gt;Not there either.&lt;&lt;/linkreplace&gt;&gt;
+&lt;&lt;linkreplace &quot;Check balcony.&quot;&gt;&gt;Hmmm.&lt;&lt;/linkreplace&gt;&gt;
+&lt;&lt;linkreplace &quot;Call out.&quot;&gt;&gt;&quot;George?&quot;
+[[Check bedroom|NicolaBedroom_1]]&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="30" name="NicolaBedroom_4a" tags="" position="1225,350" size="100,100">&lt;&lt;set $call911 = true&gt;&gt;
+Nicola dials 911.
+A police unit is on its way.
+
+[[Investigate|NicolaBedroom_4]]</tw-passagedata><tw-passagedata pid="31" name="NicolaBedroom_4" tags="" position="100,475" size="100,100">Nicola tries to hold back her tears.
+&quot;Pull yourself together. It&#39;s time for being a detective.&quot;
+
+&lt;&lt;linkreplace &quot;Examine bedroom&quot;&gt;&gt; Every looks as it should be.&lt;&lt;/linkreplace&gt;&gt;
+&lt;&lt;linkreplace &quot;Examine around George&#39;s body&quot;&gt;&gt; &quot;No. Not yet.&quot;&lt;&lt;/linkreplace&gt;&gt;
+&lt;&lt;linkreplace &quot;Examine kitchen&quot;&gt;&gt; All normal.&lt;&lt;/linkreplace&gt;&gt;
+&lt;&lt;linkreplace &quot;Examine living room&quot;&gt;&gt; All normal here as well.&lt;&lt;/linkreplace&gt;&gt;	
+&lt;&lt;linkreplace &quot;Examine front door&quot;&gt;&gt; Nothing strange here.
+[[Examine around George&#39;s body|NicolaBedroom_5]]&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="32" name="NicolaBedroom_4b" tags="" position="225,475" size="100,100">Nicola goes to the kitchen to get a knife.
+
+&lt;&lt;linkreplace &quot;Pick up the knife&quot;&gt;&gt;Nicola hesitates. &quot;No, this needs to be investigated first.&quot;
+&lt;&lt;back&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="33" name="Coroner_1" tags="" position="350,475" size="100,100">Nicola walks towards the staircase.
+She has a look around.
+
+&quot;Hmm. Everyone&#39;s gone. That was quick.&quot;
+
+She makes her way down the tiny staircase and through the double doors to the coroner&#39;s office.
+
+Dr. Asher is sitting at her desk. A somewhat androgynous, middle-aged woman with a wall filled with diplomas and honours of various kinds. Nicola still wonders why she stuck with being a coroner.
+
+[[&quot;You wanted to show me something Doctor?&quot;|Coroner_2]]</tw-passagedata><tw-passagedata pid="34" name="NicolaCase_1c" tags="" position="475,475" size="100,100">Nicola and Connor enter the interrogation room to see Frank Johns.  He was a short, grey haired man. An extremely pale complexion, as if he hadn&#39;t seen the sun in weeks. Upon his face was a seemingly permanent sorrowful expression.
+
+Nicola sat down on the designated interrogators chair. Connor decided to watch from the corner of the room.
+
+&lt;&lt;linkreplace &quot;&#39;So, I&#39;m sure you know why you&#39;re here. Care to explain to me what happened on the twenty-first of August?&#39;&quot;&gt;&gt;Frank slumped forwards with his head in hands. &quot;I didn&#39;t mean to. It was an accident.&quot; he said between breating and crying. &quot;She said that she was leaving. She...she...she said I was too much.&quot;
+&lt;&lt;linkreplace &quot;&#39;Too much what?&#39;&quot;&gt;&gt;
+&quot;I don&#39;t know.&quot; he screamed. &quot;I said she couldn&#39;t leave and...&quot;
+&lt;&lt;linkreplace &quot;&#39;And what?&#39;&quot;&gt;&gt;
+&quot;She said she could over my dead body. I thought she was speaking out of anger until she came at me with a knife.&quot;
+&lt;&lt;linkreplace &quot;&#39;Are you saying you killed her in self-defence?&#39;&quot;&gt;&gt;
+&quot;Yes. No. I&#39;m not sure. I guess so.&quot;
+&lt;&lt;linkreplace &quot;&#39;Okay then. I suggest you get your lawyer in.&#39;&quot;&gt;&gt;
+
+[[Leave the room|NicolaCase_1d]]&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="35" name="NicolaCase_1d" tags="" position="600,475" size="100,100">&quot;Well, that was easier than I thought it would be.&quot; Nicola told Connor.
+
+&lt;&lt;timed 4s&gt;&gt;&quot;Yeah.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 7s&gt;&gt;&quot;Paperwork time.&quot; Nicola said, disappointingly.
+
+[[Work|NicolaDesk_12]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="36" name="Coroner_8" tags="" position="725,475" size="100,100">&quot;Oh wow.&quot;
+Nicola just sat there, stunned.
+
+&lt;&lt;timed 5s&gt;&gt;&quot;Do you want me to leave you for a minute?&quot; Dr. Asher politely asked.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 8s&gt;&gt;&quot;No that&#39;s okay. Just be quiet for a few seconds.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 10s&gt;&gt;&quot;Have you given this liquid to vice?&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 12s&gt;&gt;&quot;This is sort of where I need you.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 14s&gt;&gt;[[&quot;Oh?|Coroner_9]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="37" name="NicolaDesk_4" tags="" position="850,475" size="100,100">The day passes by with little incidence. No new cases are brought up. No open cases are solved.
+
+&lt;&lt;if $greg3a&gt;&gt;[[Speak to Greg|Greg_3a1]]&lt;&lt;endif&gt;&gt;
+&lt;&lt;if $greg3b&gt;&gt;[[Speak to Greg|Greg_3b1]]&lt;&lt;endif&gt;&gt;
+[[Leave for home|NicolaHome_2]]</tw-passagedata><tw-passagedata pid="38" name="NicolaBedroom_5" tags="" position="975,475" size="100,100">&lt;&lt;silently&gt;&gt;
+&lt;&lt;set $phoneRing = 0&gt;&gt;
+&lt;&lt;endsilently&gt;&gt;
+&quot;Okay. Here we go.&quot;
+
+Nicola checks the ground below George. &quot;Nothing here.&quot;
+She checks the ceiling fan. &quot;Apart from dust, nothing.&quot;
+
+&lt;&lt;if $call911 eq false&gt;&gt;&lt;&lt;linkreplace &quot;Call 911&quot;&gt;&gt;Nicola dials 911.
+A police unit is on it&#39;s way.&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;endif&gt;&gt;
+
+&lt;&lt;linkreplace &quot;Check George&#39;s body&quot;&gt;&gt;Nicola bravely touches Georges cold, lifeless skin.
+&quot;Sorry.&quot;
+She finds nothing abnormal with George&#39;s body.
+
+&lt;&lt;linkreplace &quot;Check the rope&quot;&gt;&gt;&quot;I don&#39;t remember having this lying around. Maybe we did.&quot; Nicola quizzes herself. &quot;We must have. But why?&quot;
+
+&quot;Why… why why why WHY?!&quot; Nicola starts screaming, finally letting herself get back to being a grieving and shocked fiancé.
+
+Nicola collapses onto the floor.
+
+&lt;&lt;linkreplace &quot;...&quot;&gt;&gt;[[14 days later|NicolaBedroom_6]]&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="39" name="NicolaDesk_12" tags="" position="1100,475" size="100,100">Without saying goodbye, Connor packs up his things as leaves the station.
+
+&quot;See-ya... Uh, why try with him?&quot; Nicola mutters.
+
+[[Go see Dr. Asher|Coroner_1]]</tw-passagedata><tw-passagedata pid="40" name="NicolaCase_1b" tags="" position="1225,475" size="100,100">&quot;Yes.&quot; Connor said bluntly.
+
+&lt;&lt;linkreplace &quot;You have one new message&quot;&gt;&gt;
+----
+//Frank Johns has been found and is currently being brought in.//
+----
+&quot;Well, that&#39;s oddly convenient timing.&quot;
+
+[[Interrogate Frank|NicolaCase_1c]]&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="41" name="Coroner_9" tags="" position="100,600" size="100,100">&quot;I managed to persuade a member of vice to look into it. All they could determine was that a similar combination, not exact, used to sold by the mob eight years ago. The main name for it at the time was Mud.&quot;
+
+&lt;&lt;timed 6s&gt;&gt;&quot;Nothing else?&quot; Nicola excitedly asked.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 8s&gt;&gt;&quot;Sorry. They considered this liquid to be a red herring. Something tells me otherwise. I would suggest you take that Joseph Howard case now that you know all this.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 11s&gt;&gt;&quot;Let me process this and I&#39;ll get back to you in the morning.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 14s&gt;&gt;&quot;Of course. Goodnight Detective.&quot;
+
+[[Head home|NicolaHome_3]]&lt;&lt;/timed&gt;&gt;
+&lt;&lt;silently&gt;&gt;
+&lt;&lt;set $food = 0&gt;&gt;
+&lt;&lt;set $bath = false&gt;&gt;
+&lt;&lt;set $tv = false&gt;&gt;
+&lt;&lt;endsilently&gt;&gt;</tw-passagedata><tw-passagedata pid="42" name="Greg_3a1" tags="" position="225,600" size="100,100">&quot;See-ya Greg.&quot;
+
+Greg remains silent with his head firmly placed in his work.
+
+[[Leave for home|NicolaHome_2]]</tw-passagedata><tw-passagedata pid="43" name="Greg_3b1" tags="" position="350,600" size="100,100">&quot;See-ya Greg.&quot;
+
+Greg looks up and vaguely acknowledges Nicola.
+
+[[Leave for home|NicolaHome_2]]</tw-passagedata><tw-passagedata pid="44" name="NicolaBedroom_6a" tags="" position="475,600" size="100,100">&lt;&lt;silently&gt;&gt;
+&lt;&lt;set $phoneRing = $phoneRing + 1&gt;&gt;
+&lt;&lt;endsilently&gt;&gt;
+&lt;&lt;if $phoneRing eq 5&gt;&gt;
+&quot;I guess I&#39;ll answer it.
+&lt;&lt;else&gt;&gt;
+She lets the phone ring.
+&lt;&lt;endif&gt;&gt;
+
+[[Let it ring|NicolaBedroom_6a]]
+[[Answer it|NicolaBedroom_7]]</tw-passagedata><tw-passagedata pid="45" name="NicolaBedroom_6" tags="" position="600,600" size="100,100">In the past fortnight Nicola has: said goodbye to the love of her life, moved apartments and drunk an abhorrent amount of booze.
+
+She wakes up this morning with the sound of her phone ringing.
+
+[[Answer Phone|NicolaBedroom_7]]
+[[Let it ring|NicolaBedroom_6a]]</tw-passagedata><tw-passagedata pid="46" name="NicolaBedroom_7" tags="" position="725,600" size="100,100">&quot;Hi Nicola, how&#39;s it going?&quot;
+Nicola mumbles &quot;Okay.&quot;
+&quot;Have you managed to think about getting back to work?&quot;
+&quot;No!&quot; Nicola screams and hangs up angrily.
+
+[[Two days later|NicolaBedroom_8]]</tw-passagedata><tw-passagedata pid="47" name="NicolaDesk_10" tags="" position="850,600" size="100,100">Nicola walks back to her desk briskly. Not a single pair of eyes is fixed on her.
+
+&quot;I&#39;m allowed a outburst like that every once in a while.&quot; Nicola reasoned to herself.
+
+Connor was still at the desk.
+
+[[&quot;So, we&#39;ll take that first case. The Johns one.&quot;|NicolaDesk_11]]</tw-passagedata><tw-passagedata pid="48" name="NicolaDesk_11" tags="" position="975,600" size="100,100">&quot;Alright Detective. Lead on.&quot; Connor said while showing a tiny smile.
+
+[[Solve Case|NicolaCase_1a]]
+[[End of day|NicolaDesk_12]]</tw-passagedata><tw-passagedata pid="49" name="NicolaCase_1a" tags="" position="1100,600" size="100,100">&quot;Okay Connor, this one seems almost cut and dry.&quot;
+
+[[Anna A. Johns&#39;s File|AnnaJohnsFile]]
+[[Frank Johns&#39;s File|FrankJohnsFile]]
+
+[[&quot;We need to question Frank.&quot;|NicolaCase_1b]]</tw-passagedata><tw-passagedata pid="50" name="NicolaHome_3a" tags="" position="1225,600" size="100,100">&lt;&lt;if $food eq 1&gt;&gt;
+Nicola opens up the pizza box to see the vegetarian half staring back at her.
+
+She promptly closes the lid.
+&lt;&lt;else&gt;&gt;
+Nicola opens up the pizza box. Half pepperoni, half vegetarian. Same as it&#39;s been for years.
+
+She finishes the pepperoni half and closes the lid.
+&lt;&lt;endif&gt;&gt;
+&lt;&lt;set $food = 1&gt;&gt;
+[[&lt;--|NicolaHome_3]]</tw-passagedata><tw-passagedata pid="51" name="NicolaHome_3b" tags="" position="100,725" size="100,100">&lt;&lt;if $bath eq false&gt;&gt;Nicola goes to the bathroom, draws a bath and hops in.
+&lt;&lt;timed 5s&gt;&gt;[[&lt;--|NicolaHome_3]]&lt;&lt;/timed&gt;&gt;&lt;&lt;else&gt;&gt;
+&quot;I&#39;m clean enough thank you!&quot;
+[[&lt;--|NicolaHome_3]]
+&lt;&lt;endif&gt;&gt;
+&lt;&lt;set $bath = true&gt;&gt;</tw-passagedata><tw-passagedata pid="52" name="NicolaBedroom_8" tags="" position="225,725" size="100,100">Nicola hasn&#39;t slept. She&#39;s been awake all night staring at the ceiling.
+
+&quot;Fuck it.&quot;
+
+She starts getting ready to return to work.
+
+[[...|NicolaBedroomLeave]]</tw-passagedata><tw-passagedata pid="53" name="NicolaBedroomLeave" tags="" position="350,725" size="100,100">Nicola struggles to get ready. Her mind is awash with memories of George.
+
+&quot;No, you&#39;ve spent long enough.&quot; Nicola attempted to rally herself.
+
+She punches the wall on her way out.
+[[Return to work|Station_4]]</tw-passagedata><tw-passagedata pid="54" name="NicolaHome_3" tags="" position="475,725" size="100,100">Nicola arrives home at 8 PM with a large pizza and several bottles of wine.
+
+[[Eat|NicolaHome_3a]]
+[[Drink|NicolaHome_3e]]
+[[Have a bath|NicolaHome_3b]]
+[[Watch some TV|NicolaHome_3c]]
+[[Go to sleep|NicolaHome_3d]]</tw-passagedata><tw-passagedata pid="55" name="NicolaHome_3c" tags="" position="600,725" size="100,100">&lt;&lt;if $tv eq false&gt;&gt;Nicola flicks through the channels.
+
+&quot;Nothing on but crap.&quot;&lt;&lt;else&gt;&gt;
+Nicola flicks through the channels again.
+
+&quot;Still nothing on.&quot;
+&lt;&lt;endif&gt;&gt;
+&lt;&lt;set $tv = true&gt;&gt;
+[[&lt;--|NicolaHome_3]]</tw-passagedata><tw-passagedata pid="56" name="NicolaHome_3d" tags="" position="725,725" size="100,100">Nicola turns everything off and heads to bed.
+
+[[Sleep|NicolaDream_1]]</tw-passagedata><tw-passagedata pid="57" name="ChiefOffice_1a" tags="" position="850,725" size="100,100">&quot;Well, it&#39;s good to have you back. Permit me to catch you up on what you&#39;ve missed: almost nothing.&quot;
+
+&lt;&lt;timed 3s&gt;&gt;&quot;Hmm?&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 4s&gt;&gt;&quot;It&#39;s been a very quiet fortnight. A few cases appeared and were solved almost as quickly. Nothing out of the ordinary.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 9s&gt;&gt;&quot;Oh.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 10s&gt;&gt;&quot;Your pal, Greg, handed in his notice yesterday. So, we&#39;ll be losing more of that cheery disposition around here.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 15s&gt;&gt;[[&quot;...&quot;|ChiefOffice_1a1]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="58" name="ChiefOffice_1b" tags="" position="975,725" size="100,100">The Chief grins.  &quot;I&#39;m sure that you want to be caught up on the goings-on around here over the past fortnight.&quot;
+
+&lt;&lt;timed 3s&gt;&gt;&quot;Bombard me.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 4s&gt;&gt;The Chief lets out a hefty, booming laugh. &quot;Okay, here it goes: almost nothing. A few cases appeared and were solved almost as quickly. Nothing strange either.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 7s&gt;&gt;&quot;Really? I guess that&#39;s good.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 8s&gt;&gt;&quot;The biggest thing around is Greg handing in his notice yesterday. So that means we&#39;ll be loosing his version of a cheery disposition very soon.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 11s&gt;&gt;&quot;Yeah.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 12s&gt;&gt;&quot;There is one more thing though.&quot;
+[[&quot;Oh?&quot;|ChiefOffice_1b1]]
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="59" name="Station_5" tags="" position="1100,725" size="100,100">Nicola arrives at the Chief&#39;s office. A rather quaint room with a view that overlooks some infinite construction site.
+
+&quot;Ah hello Nicola, welcome back!&quot;
+
+[[&quot;...&quot;|ChiefOffice_1a]]
+[[&quot;Thanks&quot;|ChiefOffice_1b]]</tw-passagedata><tw-passagedata pid="60" name="Station_4" tags="" position="1225,725" size="100,100">Nicola finds her desk and sits down at it.
+&quot;Well, that&#39;s still the same.&quot;
+
+[[Log in|NicolaDesk_5]]</tw-passagedata><tw-passagedata pid="61" name="StationOutside_1" tags="" position="100,850" size="100,100">&lt;&lt;linkreplace &quot;Have a smoke&quot;&gt;&gt;Nicola hastily knocks a cigarette out the crumpled packet into her free hand. Lights it up, takes a drag and lets out a sigh.
+
+&lt;&lt;timed 3s&gt;&gt; Takes another drag. &lt;&lt;timed 3s&gt;&gt;Sigh.&lt;&lt;/timed&gt;&gt; &lt;&lt;/timed&gt;&gt;
+&lt;&lt;timed 9s&gt;&gt; Takes another drag. &lt;&lt;timed 3s&gt;&gt;Sigh.&lt;&lt;/timed&gt;&gt; &lt;&lt;/timed&gt;&gt;
+&lt;&lt;timed 15s&gt;&gt; &quot;Fucking bullshit.&quot;
+
+[[Go back inside|NicolaDesk_10]]&lt;&lt;/timed&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="62" name="NicolaHome_3e" tags="" position="225,850" size="100,100">Nicola takes a sip of wine.
+
+[[&lt;--|NicolaHome_3]]</tw-passagedata><tw-passagedata pid="63" name="ChiefOffice_1a1" tags="" position="350,850" size="100,100">&quot;Unfortunately, IA wants you to be supervised for the next week while you re-adjust. You won&#39;t be allowed out in the field until the supervisor signs off on you being ready to return to work.&quot;
+
+Nicola sighs.
+
+&quot;I know, but we can&#39;t really argue. I did get to pick the supervisor though.&quot;
+
+[[...|ChiefOffice_2]]</tw-passagedata><tw-passagedata pid="64" name="ChiefOffice_1b1" tags="" position="475,850" size="100,100">&quot;Unfortunately, IA wants you to be supervised for the next week while you re-adjust. You won&#39;t be allowed out in the field until the supervisor signs off on you being ready to return to work.&quot;
+
+&quot;Ah, I guess that was to be expected.&quot;
+
+&quot;Hmm. On the plus side, I did get to pick the supervisor.&quot;
+
+&quot;Anyone I know?&quot;
+
+[[...|ChiefOffice_2]]</tw-passagedata><tw-passagedata pid="65" name="NicolaDesk_5" tags="" position="600,850" size="100,100">&quot;Welcome. Please login.&quot;
+
+&lt;&lt;linkreplace &quot;Enter user name &amp; password&quot;&gt;&gt;&quot;Welcome Nicola.
+You have no new cases assigned to you.
+&quot;You have one new message&quot; &lt;&lt;linkreplace &quot; Read.&quot;&gt;&gt;
+----
+//&quot;Hello Nicola, good to see you&#39;ve made it back in. When you read this please come and see me.
+
+-The Chief&quot;//
+----
+&lt;&lt;timed 4s&gt;&gt;&quot;Oh great.&quot;
+
+[[See the Chief|Station_5]]
+&lt;&lt;/timed&gt;&gt;
+&lt;&lt;/linkreplace&gt;&gt;
+&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="66" name="NicolaDesk_9" tags="" position="725,850" size="100,100">&quot;FUCK!&quot;
+
+&lt;&lt;timed 3s&gt;&gt;Nicola storms out of the building with her lighter and cigarettes in hand.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 7s&gt;&gt;Connor hums and starts writing in a notebook.
+
+[[Outside|StationOutside_1]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="67" name="ChiefOffice_2" tags="" position="850,850" size="100,100">&quot;Speak of the devil...&quot;
+
+Peeking his head around the door was a man Nicola knew only as Mr. Q. Nicola was unfortunately acquainted with his apparent lack of detective skills.
+
+&quot;Well, I have to make a call so I&#39;ll let you two get to know each other.&quot; The Chief commanded.
+
+[[Shake Mr. Q&#39;s hand|ChiefOffice_1b2]]
+[[&quot;...&quot;|ChiefOffice_1a2]]</tw-passagedata><tw-passagedata pid="68" name="NicolaDesk_7Q1" tags="" position="975,850" size="100,100">Mr. Q looks at his feet.
+
+&quot;A year at this station. Spent the last few years jumping between stations.&quot;
+
+&lt;&lt;back&gt;&gt;</tw-passagedata><tw-passagedata pid="69" name="NicolaDesk_7Q3" tags="" position="1100,850" size="100,100">Mr. Q stares at his feet.
+
+&quot;Yes. I&#39;ve been fully informed of your situation.&quot;
+
+&quot;Oh. Good.&quot;
+
+&quot;Sorry by the way.&quot;
+
+&lt;&lt;back&gt;&gt;</tw-passagedata><tw-passagedata pid="70" name="NicolaDream_1" tags="" position="1225,850" size="100,100">Nicola is standing in the middle of a field of wheat. A limitless expanse from each direction she looks in.
+
+&lt;&lt;timed 6s&gt;&gt;She walks forward. The wheat turns to ash. A flock of indistinguishable birds fly up above, squawking.  Nicola looks up to see the birds form two columns.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 15s&gt;&gt;She looks back down and sees a tree off in the distance.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 19s&gt;&gt;[[Head towards the tree|NicolaDream_2a]]
+[[Stay|NicolaDream_2b]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="71" name="ChiefOffice_1a2" tags="" position="100,975" size="100,100">Nicola shakes hands with Mr. Q.
+
+&quot;Hi.&quot; Mr. Q says coldly.
+
+&quot;Hi.&quot; Nicola responds, equally as coldly.
+
+[[Go to Nicola&#39;s Desk|NicolaDesk_6]]</tw-passagedata><tw-passagedata pid="72" name="ChiefOffice_1b2" tags="" position="225,975" size="100,100">Nicola shakes hands with Mr. Q.
+
+&quot;Hi.&quot; Mr. Q says coldly.
+
+&quot;Hi, I&#39;m Nicola. I&#39;m assuming that you know why we&#39;re together for a while?&quot;
+
+&quot;Yep.&quot; Mr. Q says coldly again.
+
+&quot;Good.&quot;
+
+[[Go to Nicola&#39;s Desk|NicolaDesk_6]]</tw-passagedata><tw-passagedata pid="73" name="NicolaDesk_7" tags="" position="350,975" size="100,100">&quot;So...&quot;
+
+[[&quot;How long have you been here?&quot;|NicolaDesk_7Q1]]
+[[&quot;What do you do for fun?&quot;|NicolaDesk_7Q2]]
+[[&quot;Do you know why we&#39;re working together?&quot;|NicolaDesk_7Q3]]
+[[&quot;Umm, I don&#39;t think I know your real name.&quot;|NicolaDesk_7Q4]]</tw-passagedata><tw-passagedata pid="74" name="NicolaDesk_7Q2" tags="" position="475,975" size="100,100">Mr. Q avoids eye-contact with Nicola.
+
+&quot;Uh, not much. I read.&quot;
+
+&lt;&lt;linkreplace &quot;Anything in particular?&quot;&gt;&gt;&quot;Just sci-fi.&quot;&lt;&lt;/linkreplace&gt;&gt;
+
+&lt;&lt;back&gt;&gt;</tw-passagedata><tw-passagedata pid="75" name="NicolaDesk_7Q4" tags="" position="600,975" size="100,100">&lt;&lt;silently&gt;&gt;
+&lt;&lt;set $connor = true&gt;&gt;
+&lt;&lt;endsilently&gt;&gt;
+Mr. Q sighs.
+
+&quot;You know Mr. Q right?&quot;
+
+Nicola coughs suddenly. &quot;Yeah.&quot;
+
+&quot;Don&#39;t call me that. My name is Connor.&quot;
+
+&quot;Where does Mr. Q come from then?&quot;
+
+Connor doesn&#39;t respond.
+
+[[Start work|NicolaDesk_7a]]</tw-passagedata><tw-passagedata pid="76" name="AnnaJohnsFile" tags="" position="725,975" size="100,100">&#39;&#39;Name:&#39;&#39; Anna Ada Johns
+&#39;&#39;Date of birth:&#39;&#39; 13/5/1965
+&#39;&#39;Date of death:&#39;&#39; 21/8/2013
+&#39;&#39;Last known address:&#39;&#39; 214 Franklin Road
+&#39;&#39;Partner:&#39;&#39; [[Frank Johns|FrankJohnsFile]]
+
+&#39;&#39;Cause of death:&#39;&#39; Blunt force trauma from an unknown item.
+
+&lt;&lt;back&gt;&gt;</tw-passagedata><tw-passagedata pid="77" name="NicolaDesk_8" tags="" position="850,975" size="100,100">Everyone in the station was staring at Nicola.
+
+&lt;&lt;timed 4s&gt;&gt;&quot;It&#39;s okay. I&#39;m sure someone just screwed up.&quot; Connor explained calmly.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 8s&gt;&gt;Nicola remained silent.
+
+[[next|NicolaDesk_9]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="78" name="NicolaDream_2a" tags="" position="975,975" size="100,100">Nicola starts walking towards the tree. Picking up her pace as she got closer.
+
+&lt;&lt;timed 5s&gt;&gt;She noticed something strange about the tree. Nicola tried as hard as she could to turn back but her legs kept moving.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 15s&gt;&gt;She tried to scream but nothing came out.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 18s&gt;&gt;She arrived at the tree only to see a cross carved into it.
+She reached out and touched the tree. &lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 23s&gt;&gt;[[Wake up|NicolaBedroom_9]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="79" name="NicolaDream_2b" tags="" position="1100,975" size="100,100">Nicola looks up again. This time the birds are gone and the sky has turned black.
+
+&lt;&lt;timed 5s&gt;&gt;She looks back down and sees a pebble on the ground.  She picks it up and feels it&#39;s smoothness. She turns it over to see a cross carved into the centre of it.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 11s&gt;&gt;[[Wake up|NicolaBedroom_9]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="80" name="NicolaDesk_6" tags="" position="1225,975" size="100,100">&lt;&lt;silently&gt;&gt;
+&lt;&lt;set $connor = false&gt;&gt;
+&lt;&lt;set $backtrack = false&gt;&gt;
+&lt;&lt;endsilently&gt;&gt;
+&quot;So what&#39;s the plan here?&quot; Nicola enquires.
+
+&quot;I think I&#39;m going to have to share your desk.&quot;
+
+&quot;Okay then.&quot;
+
+[[Talk to Mr. Q|NicolaDesk_7]]
+[[Start Working|NicolaDesk_7a]]</tw-passagedata><tw-passagedata pid="81" name="NicolaCase_1" tags="" position="100,1100" size="100,100">Officers received a distress call on the morning of 21/8/13 from the neighbour of Mrs. Johns complaining of excessive yelling and thud-like noises.
+
+Officers arrived on the scene to find the door unlocked. In the kitchen was a pool of Mrs. Johns&#39;s blood. A clean knife was next the blood.
+
+The following morning her body was discovered 3.3 kilometres away in an industrial bin.
+
+Victim: [[Anna A. Johns|AnnaJohnsFile]]
+Suspect: [[Frank Johns|FrankJohnsFile]]
+
+&lt;&lt;back&gt;&gt;</tw-passagedata><tw-passagedata pid="82" name="FrankJohnsFile" tags="" position="225,1100" size="100,100">&#39;&#39;Name:&#39;&#39; Frank Johns
+&#39;&#39;Date of birth:&#39;&#39; 1/11/1960
+
+&#39;&#39;Last known address:&#39;&#39; 214 Franklin Road
+&#39;&#39;Partner:&#39;&#39; Anna A. Johns
+
+//APB has been placed on this person.//
+
+&lt;&lt;back&gt;&gt;</tw-passagedata><tw-passagedata pid="83" name="NicolaBedroom_9" tags="" position="350,1100" size="100,100">Nicola wakes up with a fading memory of her dream.
+She follows her morning routine.
+
+She goes to leave but she finds a large envelope slid through her front door.
+
+[[Open Envelope|NicolaHome_4]]</tw-passagedata><tw-passagedata pid="84" name="NicolaHome_5a" tags="" position="475,1100" size="100,100">&lt;&lt;if $food eq 1&gt;&gt;
+Nicola opens up the pizza box to see the vegetarian half staring back at her.
+
+She promptly closes the lid.
+&lt;&lt;else&gt;&gt;
+Nicola opens up the pizza box. Half pepperoni, half vegetarian. Same as it&#39;s been for years.
+
+She finishes the pepperoni half and closes the lid.
+&lt;&lt;endif&gt;&gt;
+&lt;&lt;set $food = 1&gt;&gt;
+[[&lt;--|NicolaHome_5]]</tw-passagedata><tw-passagedata pid="85" name="NicolaHome_5b" tags="" position="600,1100" size="100,100">&lt;&lt;if $bath eq false&gt;&gt;Nicola goes to the bathroom, draws a bath and hops in.
+&lt;&lt;timed 5s&gt;&gt;[[&lt;--|NicolaHome_5]]&lt;&lt;/timed&gt;&gt;&lt;&lt;else&gt;&gt;
+&quot;I&#39;m clean enough thank you!&quot;
+[[&lt;--|NicolaHome_5]]
+&lt;&lt;endif&gt;&gt;
+&lt;&lt;set $bath = true&gt;&gt;</tw-passagedata><tw-passagedata pid="86" name="NicolaDesk_7a" tags="" position="725,1100" size="100,100">&lt;&lt;if $connor eq false&gt;&gt;
+&quot;Great.&quot; Nicola thought. &quot;I have to be supervised by someone more depressed than me.  Why did the Chief have to pick? And why Mr. Q? If anything he&#39;s going to make me worse.&quot;
+&lt;&lt;else&gt;&gt;
+&quot;Great.&quot; Nicola thought. &quot;I have to be supervised by someone more depressed than me.  Why did the Chief have to pick? And why Connor? If anything he&#39;s going to make me worse.&quot;
+&lt;&lt;endif&gt;&gt;
+
+[[&quot;Enter user name &amp; password&quot;|NicolaDesk_7b]]</tw-passagedata><tw-passagedata pid="87" name="NicolaCase_2" tags="" position="850,1100" size="100,100">Patrol officers were on duty on 13/9/13 in the area of the Branford apartment complex. One of them, Officer Mel Key, noted a pair of people behaving strangely.  The officers went to investigate only to have the people run away.
+
+Upon a brief investigation of the scene they found various illegal narcotics, a pistol and a cloth soaked in blood.
+
+On testing the blood, it belongs to no-one on record. Further testing shows it would belong to a girl, aged between 8 and 12.
+
+No girls matching the criteria have been reported missing or injured around the time.
+
+On 21/9/13, Joseph Howard made a distress call saying that his 11 year old daughter, Jessica, had vanished. 
+
+On 22/9/13, Joseph Howard was found hanged in his home.
+[[See Attached File|JosephHoward]]
+
+[[next|NicolaCase_2a]]
+
+&lt;&lt;back&gt;&gt;</tw-passagedata><tw-passagedata pid="88" name="NicolaCase_2a" tags="" position="975,1100" size="100,100">Nicola went white and stared into the monitor.
+
+&lt;&lt;timed 10s&gt;&gt;&quot;Are you okay?&quot; Connor asked.&lt;&lt;/timed&gt;&gt; 
+
+&lt;&lt;timed 12s&gt;&gt;&quot;I was living in a Branford apartment when it happened. That was the 24th of September.&quot;&lt;&lt;/timed&gt;&gt; 
+
+&lt;&lt;timed 16s&gt;&gt;&quot;Oh.&quot;&lt;&lt;/timed&gt;&gt; 
+
+&lt;&lt;timed 18s&gt;&gt;&quot;Who the FUCK assigned me this?&quot; Nicola screamed. &quot;Is this someone&#39;s idea of a fucking joke?&quot;&lt;&lt;/timed&gt;&gt; 
+
+&lt;&lt;timed 23s&gt;&gt;[[next|NicolaDesk_8]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="89" name="NicolaHome_4" tags="" position="1100,1100" size="100,100">She opens the envelope to find a case file about Mud and the man apparently behind it all, [[Francesco Fay|FrancescoFile]].
+
+She reads the file.
+
+&quot;Thanks.&quot;
+
+[[Go to work|Station_6]]</tw-passagedata><tw-passagedata pid="90" name="FrancescoFile" tags="" position="1225,1100" size="100,100">&#39;&#39;Name:&#39;&#39; Francesco Fay
+&#39;&#39;Born:&#39;&#39; 13/2/1977
+&#39;&#39;Current residence:&#39;&#39; Unknown
+&#39;&#39;Last known residence:&#39;&#39; 8 Varbing Avenue
+
+&#39;&#39;Suspected:&#39;&#39;
+Narcotics trafficking &amp; manufacture.
+Weapons trafficking.
+
+[[&lt;--|NicolaHome_4]]</tw-passagedata><tw-passagedata pid="91" name="NicolaHome_6a" tags="" position="100,1225" size="100,100">One of the attackers looks at the open door and yells &quot;you can come in boss.&quot;
+
+&lt;&lt;timed 5s&gt;&gt;Nicola sees an old man enter the room. Alberto Firenzia.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 10s&gt;&gt;&quot;I&#39;m sorry for this detective, I truly am. But not only have you opened old wounds but you&#39;ve stumbled onto something, albeit willingly or not.&quot; &lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 17s&gt;&gt;Alberto gestures to the man covering Nicola&#39;s mouth. 
+&quot;You can take your hand off her mouth Frankie.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 21s&gt;&gt;
+Nicola gasps for air. &quot;What do you mean?&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 26s&gt;&gt;&quot;We are remaking Mud but in a more concentrated state. At least ten times more potent and addictive. We don&#39;t know how you found those test subjects. As for Francesco and Johnny, they&#39;re dead. Have been for a while now.&quot; Alberto informs Nicola.  He spits on the floor and says &quot;Cazzo froci.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 39s&gt;&gt;&quot;What?! Test-subjects? The fuck are you talking about?&quot; Nicola screamed.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 44s&gt;&gt;&quot;Don&#39;t give me that shit.&quot; 
+Alberto bent down and met Nicola face-to-face.  &quot;Boys, dose her.&quot; He winked.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 51s&gt;&gt;&quot;Noooooooo!&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 54s&gt;&gt;Nicola feels an prick in her neck followed shortly by the butt of a pistol smacking the back of her skull.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 58s&gt;&gt;She collapses onto the floor.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 72s&gt;&gt;[[...|NicolaDream_3]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="92" name="NicolaHome_6" tags="" position="225,1225" size="100,100">Nicola walks to front door and opens it.
+
+&lt;&lt;timed 4s&gt;&gt;In burst three people dressed entirely in black. Faces covered apart from their eyes.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 8s&gt;&gt;They grab her and force her onto the couch. Nicola struggles as hard as she possibly can. The people have no problem keeping her down.
+
+[[!!!|NicolaHome_6a]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="93" name="NicolaHome_5c" tags="" position="350,1225" size="100,100">&lt;&lt;if $tv eq false&gt;&gt;Nicola flicks through the channels.
+
+&quot;Nothing on but crap.&quot;&lt;&lt;else&gt;&gt;
+Nicola flicks through the channels again.
+
+&quot;Still nothing on.&quot;
+&lt;&lt;endif&gt;&gt;
+&lt;&lt;set $tv = true&gt;&gt;
+[[&lt;--|NicolaHome_5]]</tw-passagedata><tw-passagedata pid="94" name="NicolaHome_5e" tags="" position="475,1225" size="100,100">Nicola takes a sip of wine.
+
+[[&lt;--|NicolaHome_5]]</tw-passagedata><tw-passagedata pid="95" name="NicolaDesk_7b" tags="" position="600,1225" size="100,100">&quot;Welcome Nicola.
+You have two new cases assigned to you.
+You have three new messages.&quot;
+
+&lt;&lt;linkreplace &quot;Read first message&quot;&gt;&gt;
+----
+//&quot;Hi again, sorry to finish somewhat abruptly before.
+
+I&#39;m sure that Connor will be a good person for you to have around.
+
+-The Chief&quot;//
+----
+&lt;&lt;if $connor eq false&gt;&gt;&quot;Oh his name is Connor.&quot; Nicola thought. &quot;Wonder where the Q comes from?&quot;&lt;&lt;endif&gt;&gt;
+&lt;&lt;/linkreplace&gt;&gt;
+&lt;&lt;linkreplace &quot;Read second message&quot;&gt;&gt;
+----
+//&quot;Hi Nicola, welcome back!
+
+-Kim&quot;//
+----
+&lt;&lt;/linkreplace&gt;&gt;
+&lt;&lt;linkreplace &quot;Read third message&quot;&gt;&gt; 
+----
+//&quot;Good morning Nicola, I have something that you might want to see but come visit at the end of the day.
+
+Regards,
+Dr. Ashen&quot;//
+----
+&quot;Hmm. I guess I will.&quot;&lt;&lt;/linkreplace&gt;&gt;
+
+[[Read first case|NicolaCase_1]]
+[[Read second case|NicolaCase_2]]</tw-passagedata><tw-passagedata pid="96" name="JosephHoward" tags="" position="725,1225" size="100,100">Joseph Howard
+Born: 12/1/1981
+Died: 22/9/2013
+Occupation: Writer
+Cause of Death: Suicide by hanging.
+
+Case Notes:
+
+No signs of struggle.
+Items in room are neatly placed but have dust on them.
+No signs of other people or outside interference.
+Apparent suicide by hanging.
+
+&lt;&lt;back&gt;&gt;</tw-passagedata><tw-passagedata pid="97" name="AlbertoFirenzia" tags="" position="850,1225" size="100,100">&#39;&#39;Name:&#39;&#39; Alberto Firenzia
+&#39;&#39;Date of Birth:&#39;&#39; 24/11/1950
+&#39;&#39;Place of Birth:&#39;&#39; Unknown location, USA
+&#39;&#39;Current Residence:&#39;&#39; 8 Varbing Avenue
+
+&#39;&#39;Suspected:&#39;&#39;
+Weapons trafficking.
+Narcotics trafficking.
+8 homicides.
+...
+
+Nicola knew this guy well. He was the local mob boss.
+
+&lt;&lt;back&gt;&gt;</tw-passagedata><tw-passagedata pid="98" name="Station_6" tags="" position="975,1225" size="100,100">Nicola arrives at the station and sees Connor already sitting at her desk.  Oddly enough, Greg isn&#39;t at his spot.
+
+&lt;&lt;timed 5s&gt;&gt;&quot;We&#39;re switching cases to that Joseph Howard one.&quot; Nicola informed Connor.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 10s&gt;&gt;&quot;Uhh, are you sure?&quot; Connor, somewhat surprised.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 14s&gt;&gt;&quot;Yes. I have a lead.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 17s&gt;&gt;&quot;That was quick.&quot;  Connor said, resuming his staring at his shoes.
+
+[[Tell Connor about Mud &amp; Francesco Fay|NicolaDesk_13]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="99" name="NicolaHome_5d" tags="" position="1100,1225" size="100,100">Nicola turns everything off and heads to bed.
+
+[[Knock Knock|NicolaHome_6]]</tw-passagedata><tw-passagedata pid="100" name="NicolaHome_5" tags="" position="1225,1225" size="100,100">After spending the rest of the day working, Nicola and Connor had no new leads or anything that could resemble a lead.
+
+Nicola slumped hard into her couch.  Another pizza, another few bottles of wine.
+
+[[Eat|NicolaHome_5a]]
+[[Drink|NicolaHome_5e]]
+[[Have a bath|NicolaHome_5b]]
+[[Watch some TV|NicolaHome_5c]]
+[[Go to sleep|NicolaHome_5d]]</tw-passagedata><tw-passagedata pid="101" name="VarbingAvenueInside_3" tags="" position="100,1350" size="100,100">Walking back to the car, Nicola turns to Connor.
+&quot;Well, this seems like a dead-end.&quot;
+
+&lt;&lt;timed 5s&gt;&gt;&quot;I agree. What now?&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 8s&gt;&gt;[[&quot;Let&#39;s head back to the station.&quot;|NicolaHome_5]]&lt;&lt;/timed&gt;&gt;&lt;&lt;silently&gt;&gt;
+&lt;&lt;set $food = 0&gt;&gt;
+&lt;&lt;set $bath = false&gt;&gt;
+&lt;&lt;set $tv = false&gt;&gt;
+&lt;&lt;endsilently&gt;&gt;</tw-passagedata><tw-passagedata pid="102" name="VarbingAvenueInside_2a1" tags="" position="225,1350" size="100,100">&quot;Well, there was Johnny.&quot;
+
+&lt;&lt;timed 4s&gt;&gt;&quot;Was?&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 7s&gt;&gt;&quot;He vanished around the same time as Francesco but I get a letter from him once a year. And yes detectives, I do know where he is.&quot; Alberto angrily informed the detectives.
+
+Alberto hands had started shaking.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 16s&gt;&gt;&quot;They were partners. Lovers.&quot; Alberto abruptly said. &quot;I treated them like sons and this is how they repayed me. By upsetting our God with this abominable display.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 21s&gt;&gt;Nicola rolls her eyes.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 24s&gt;&gt;[[&quot;I think we&#39;ll leave. Thank you for your time.&quot;|VarbingAvenueInside_3]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="103" name="VarbingAvenueInside_2a" tags="" position="350,1350" size="100,100">&quot;Oh really? How did you come up with that?&quot; Alberto angrily asked.
+
+&lt;&lt;timed 6s&gt;&gt;&quot;We&#39;ve found a substance that bears a strong resemblance to a drug that he was in charge of manufacturing a while ago. The first instance we&#39;ve found of it since it stopped appearing on the streets.&quot; Nicola informed Alberto.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 20s&gt;&gt;&quot;You mean Mud? That stuff is long gone! He was very protective of its manufacturing method. Not that I had anything to do with it.&quot;
+
+Alberto wasn&#39;t very subtle about his involvement in the crime world. Every cop and lawyer in the area knew. Everyone was powerless to do anything about it.
+&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 25s&gt;&gt;&quot;Uh-huh.&quot; Nicola nodded and Connor continued writing.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 28s&gt;&gt;[[&quot;Do you know anyone that was involved in its manufacture?&quot;|VarbingAvenueInside_2a1]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="104" name="VarbingAvenueInside" tags="" position="475,1350" size="100,100">Nicola and Connor started walking to the front door.
+Before getting there it opened and out walked [[Alberto Firenzia|AlbertoFirenzia]].
+
+&lt;&lt;timed 7s&gt;&gt;&quot;Ah, detectives, welcome.&quot; Alberto said in his overly Italian way with his arms outstretched and a giant grin.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 14s&gt;&gt;&quot;Good morning Mr Firenzia, we just have a couple of questions for you regarding Francesco Fay.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 22s&gt;&gt;Alberto&#39;s facial expression suddenly changed to a near grimace.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 27s&gt;&gt;&quot;Oh. You might as well come inside then.&quot;
+
+[[Go Inside|VarbingAvenueInside_1]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="105" name="VarbingAvenue" tags="" position="600,1350" size="100,100">Situated at 8 Varbing Avenue was what Nicola referred to as a modest mansion. Two storeys, six car garage, dozens of windows and huge rooms. She could only see this from the car width size gate. The property was surrounded with an 8 foot high brick wall.
+
+&lt;&lt;timed 15s&gt;&gt;Nicola approached the gate. &quot;I hate these intercoms.&quot;
+She presses the button.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 24s&gt;&gt;&quot;Yes?&quot; the question, horribly muffled, comes out of a tiny speaker.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 29s&gt;&gt;&quot;Good day, I&#39;m Detective Riley and this is Detective Connor. We just have a couple of questions to ask.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 37s&gt;&gt;&quot;Okay.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 39s&gt;&gt;A loud buzz sounded for a couple of seconds followed by the gate opening.
+
+[[Inside|VarbingAvenueInside]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="106" name="NicolaDesk_13" tags="" position="725,1350" size="100,100">Nicola proceeds to explain a cut-down version of what Dr. Asher had told her. This one involving only the one rope, belonging to Joseph Howard and the liquid that resembeled Mud.
+
+&lt;&lt;timed 8s&gt;&gt;&quot;Okay. At least that&#39;s a start.&quot; Connor muttered.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 12s&gt;&gt;&quot;Good. So you ready to go?&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 15s&gt;&gt;Nicola had almost left the station by time Connor stood up.
+
+[[8 Varbing Avenue|VarbingAvenue]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="107" name="NicolaDream_3" tags="" position="850,1350" size="100,100">Nicola is standing in a field of what was once wheat. She is surrounded by ash.
+
+[[Look Around|NicolaDream_3a]]
+[[Walk Forwards|NicolaDream_3b]]</tw-passagedata><tw-passagedata pid="108" name="NicolaDream_3a" tags="" position="975,1350" size="100,100">Nicola looks around.
+Beyond the horizon is blackness in all directions.
+
+&lt;&lt;back&gt;&gt;</tw-passagedata><tw-passagedata pid="109" name="VarbingAvenueInside_2b1" tags="" position="1100,1350" size="100,100">&quot;Johnny is Francesco&#39;s partner. They ran away because they believe such a, thing, would get them killed.&quot;
+
+&lt;&lt;timed 5s&gt;&gt;&quot;Would it?&quot; Connor asked instantly. Nicola almost jumped, she hadn&#39;t heard Connor say anything since outside.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 10s&gt;&gt;&quot;Most likely. I considered both those boys to be like sons but what they do God considers an abomination.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 16s&gt;&gt;Nicola rolls her eyes.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 21s&gt;&gt;[[&quot;I think we&#39;ll leave. Thank you for your time.&quot;|VarbingAvenueInside_3]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="110" name="VarbingAvenueInside_2b" tags="" position="1225,1350" size="100,100">&quot;You mean Mud? That stuff has been off the market for a very long time. How did you come up with this?&quot; Alberto asked.
+
+Alberto wasn&#39;t very subtle about his involvement in the crime world. Every cop and lawyer in the area knew. Everyone was powerless to do anything about it.
+
+&lt;&lt;timed 5s&gt;&gt;&quot;There was a homicide recently where we found a liquid that bears a strong resemblance to Mud.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 10s&gt;&gt;Alberto scoffed. &quot;Francesco and Johnny wouldn&#39;t come back just to do that.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 15s&gt;&gt;&quot;Who&#39;s Johnny? And where would they come back from?&quot; &lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 19s&gt;&gt;&quot;I get a letter from Johnny once a year. Where it&#39;s from is well out of your jurisdiction Detectives.&quot; said Alberto.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 26s&gt;&gt;[[&quot;And who&#39;s Johnny?&quot;|VarbingAvenueInside_2b1]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="111" name="VarbingAvenueInside_1" tags="" position="100,1475" size="100,100">Alberto lead the detectives through a foyer that contained a pair of spiral staircases, through to what Nicola could determine as the living room. Except that it was the size of her whole apartment.
+
+&lt;&lt;timed 8s&gt;&gt;&quot;Please sit down.&quot; Alberto gestured to a blindingly white couch.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 11s&gt;&gt;&quot;Thanks.&quot; Connor and Nicola said in unison.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 18s&gt;&gt;&quot;So, Francesco eh? That&#39;s a name I haven&#39;t heard in a while. What do you need with him?&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 24s&gt;&gt;&quot;A while?&quot; Nicola asked.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 28s&gt;&gt;&quot;Yes, he disappeared a couple of years ago. I remember a few days before that he was asking favours of me. Stuff like could I help his parents out and one of his children. So I did. Then he vanished.&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 36s&gt;&gt;&quot;Hmm.&quot; Connor mumbled while he started taking notes.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 40s&gt;&gt;[[&quot;We believe he&#39;s linked to a few deaths.&quot;|VarbingAvenueInside_2a]]
+[[&quot;We believe he&#39;s back making and selling drugs.&quot;|VarbingAvenueInside_2b]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="112" name="NicolaDream_3b" tags="" position="225,1475" size="100,100">Nicola takes a step forward.
+
+Suddenly the ash turns back into wheat.  There is now sunlight.
+
+[[Look Around|NicolaDream_3c]]</tw-passagedata><tw-passagedata pid="113" name="NicolaDream_3c" tags="" position="350,1475" size="100,100">Nicola looks around.
+The fields of wheat form a limitless expanse.
+
+There is a lonesome tree.
+
+[[Walk towards the tree|NicolaDream_3d]]</tw-passagedata><tw-passagedata pid="114" name="NicolaDream_3d" tags="" position="475,1475" size="100,100">She starts walking towards the tree. 
+
+Hundreds of birds suddenly overhead.  Nicola looks up and sees that they are fighting.
+
+She looks back down and the tree is next to her.
+
+[[Examine the tree|NicolaDream_3e]]</tw-passagedata><tw-passagedata pid="115" name="NicolaDream_3e" tags="" position="600,1475" size="100,100">She looks at the tree.
+
+There is a perfectly round hole in the tree.
+
+[[Look In Hole|NicolaDream_3e1]]
+[[Find something to put in the hole|NicolaDream_3e2]]
+[[Reach into hole|NicolaDream_3f]]</tw-passagedata><tw-passagedata pid="116" name="NicolaDream_3h" tags="" position="725,1475" size="100,100">The bright lights take up Nicola&#39;s field of vision.
+
+She thinks she sees a figure of a person.
+
+&lt;&lt;timed 10s&gt;&gt;&quot;George?&quot; she cries out. &quot;You&#39;re alive!&quot;&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 16s&gt;&gt;The figure approaches Nicola.  Nicola throws her arms around him.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 22s&gt;&gt;She looks up at George&#39;s face. For a moment his face was strange; not human.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 27s&gt;&gt;Nicola releases George and steps back.
+&quot;You&#39;re not George?&quot; her voice trembles.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 35s&gt;&gt;&quot;Zero&quot; the man shouts.
+Nicola lands on the ground.
+
+[[...|NicolaHome_7]]
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="117" name="NicolaDream_3e1" tags="" position="850,1475" size="100,100">It is too dark to see inside the hole.
+
+&lt;&lt;back&gt;.</tw-passagedata><tw-passagedata pid="118" name="NicolaDream_3e2" tags="" position="975,1475" size="100,100">Nicola looks around on the ground. Nothing but wheat and dirt.
+Nothing will fit that hole.
+
+&lt;&lt;back&gt;&gt;</tw-passagedata><tw-passagedata pid="119" name="NicolaDream_3f" tags="" position="1100,1475" size="100,100">Without hesitation, Nicola puts her arm into the hole.
+
+&lt;&lt;timed 8s&gt;&gt;She feels something familiar, like human flesh.&lt;&lt;/timed&gt;&gt;
+
+&lt;&lt;timed 13s&gt;&gt;Nicola pulls her hand from the tree.
+[[!!!|NicolaDream_3g]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="120" name="NicolaDream_3g" tags="" position="1225,1475" size="100,100">On the palm of her hand is now a cross. She turns her hand over to see the cross on the back of the same hand.
+
+Nicola turns around to see that the sky has turned black.
+
+&lt;&lt;timed 15s&gt;&gt;There are some bright lights heading towards her.
+
+[[next|NicolaDream_3h]]
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="121" name="NicolaHome_7" tags="" position="100,1600" size="100,100">Four days after the incident with the mob, Nicola&#39;s door gets smashed open.
+
+Three cops enter, torches and pistols leading the way.
+
+Two of them head towards the kitchen and bathroom.
+
+The final one walks into the bedroom only to find Nicola hanging from a rope connected to a newly exposed beam.
+
+[[next|EndFibres_Part1]]</tw-passagedata><tw-passagedata pid="122" name="EndFibres_Part1" tags="" position="225,1600" size="100,100">End of Part 1
+
+[[About|About_Fibres]]</tw-passagedata></tw-storydata>
