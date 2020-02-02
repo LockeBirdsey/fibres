@@ -15,3 +15,6 @@ build:
 
 test:
 	npm start
+
+test-build:
+	npx electron-forge start
