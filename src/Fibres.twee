@@ -1,5 +1,5 @@
 :: StoryTitle
-Fibres \n[Part 1]
+Fibres
 
 
 :: StoryData
@@ -24,7 +24,7 @@ Apparent suicide by hanging.
 <<timed 5s>>[[Start|NicolaHome_1]]<</timed>>
 
 
-:: NicolaHome_1 {"position":"225,100","size":"100,100"}
+:: NicolaHome_1 {"position":"223,32","size":"100,100"}
 Detective Nicola Riley, newly promoted to the position, awakens for another day. She gets ready while trying not to disturb her fiance, George.  "Only another week!" she muttered excitedly to herself. "Crap!"
 
 <<timed 10s>>George wakes up.<</timed>> 
@@ -46,22 +46,22 @@ In his half-awake state, George jokes, "Why are you trying to be so secretive?"
 [[Kiss goodbye|Station_1]]
 
 
-:: About_Fibres {"position":"475,100","size":"100,100"}
-Fibres was written by Lachlan Birdsey and edited by Jessica McCandless.
+:: About_Fibres {"position":"1754,85","size":"100,100"}
+Fibres was written by Locke Birdsey
 
 ----
 ''Notes:''
 Many passages use time release functions. If you get to a passage and there is no text, the text seems to end abruptly and there is no link to another passage; please refresh. 
-If that does not work contact lachlan@tiltthewindmill.net with the appropriate information.
+If that does not work contact locke.birdsey@gmail.com with the appropriate information.
 
-//Fibres// is deployed in parts. Currently only part 1 exists. Each part is meant to be played in it's entirety, therefore no save points exist. 
+//Fibres// is deployed in parts. Currently only part 1 exists. Each part is meant to be played in it's entirety. 
 
 Part 1 shouldn't take more than 25 minutes to complete.
 
 There is also a companion soundtrack in the works. Parts of it are being uploaded to tiltthewindmill.bandcamp.com.
 As of now it is not complete.
 
-[[About Tilt The Windmill|http://tiltthewindmill.net/games/about.html]]
+[[About Tilt The Windmill|http://tiltthewindmill.net]]
 
 <<back>>
 
@@ -165,11 +165,11 @@ Greg harrumphs and goes back to work.
 <<set $greg3a = true>>
 
 
-:: StoryMenu {"position":"1225,100","size":"100,100"}
+:: StoryMenu {"position":"1503,42","size":"100,100"}
 [[About|About_Fibres]]
 
 
-:: StoryAuthor {"position":"100,225","size":"100,100"}
+:: StoryAuthor {"position":"0,166","size":"100,100"}
 <html><a href="http://tiltthewindmill.net/games/about.html">Tilt The Windmill</a></html>
 
 
