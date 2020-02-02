@@ -4,8 +4,11 @@ all:
 compile:
 	tweego -d src/Fibres.html -o src/Fibres.twee
 
+compile-index-html:
+	tweego src/Fibres.twee -o src/index.html
+
 compile-html:
-	tweego src/Fibres.twee -o src/Fibres.html
+	tweego src/Fibres.twee -o src/Fibres-compiled.html
 
 edit:
 	cp src/Fibres.html ${HOME}/Documents/Twine/Stories
@@ -20,8 +23,7 @@ build-html:
 	rm -rf out/html
 	mkdir out/html
 	make compile
-	make compile-html
-	cp src/Fibres.html src/index.html
+	make compile-index-html
 	cp -R src/* out/html	
 	cd out; zip Fibres.zip -r html
 
