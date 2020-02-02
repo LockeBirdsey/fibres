@@ -4,6 +4,9 @@ all:
 compile:
 	tweego -d src/Fibres.html -o src/Fibres.twee
 
+build-html:
+	tweego src/Fibres.twee -o src/Fibres.html
+
 edit:
 	cp src/Fibres.html ${HOME}/Documents/Twine/Stories
 
