@@ -100,7 +100,7 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 		<div id="init-lacking">Your browser lacks required capabilities. Please upgrade it or switch to another to continue.</div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<!-- UUID://A3DAC051-20F3-40B5-9017-681E452E6D26// --><tw-storydata name="Fibres" startnode="1" creator="Tweego" creator-version="2.1.0+9ea2fab" ifid="A3DAC051-20F3-40B5-9017-681E452E6D26" zoom="1" format="SugarCube" format-version="2.30.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="58,37" size="100,100">No signs of struggle.
+	<!-- UUID://A3DAC051-20F3-40B5-9017-681E452E6D26// --><tw-storydata name="Fibres" startnode="54" creator="Tweego" creator-version="2.1.0+9ea2fab" ifid="A3DAC051-20F3-40B5-9017-681E452E6D26" zoom="1" format="SugarCube" format-version="2.30.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="58,37" size="100,100">No signs of struggle.
 Items in room are neatly placed but have dust on them.
 No signs of other people or outside interference.
 
@@ -406,7 +406,7 @@ Nicola just sat there, stunned.
 
 &lt;&lt;timed 12s&gt;&gt;&quot;This is sort of where I need you.&quot;&lt;&lt;/timed&gt;&gt;
 
-&lt;&lt;timed 14s&gt;&gt;[[&quot;Oh?|Coroner_9]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="37" name="NicolaDesk_4" tags="" position="850,475" size="100,100">The day passes by with little incidence. No new cases are brought up. No open cases are solved.
+&lt;&lt;timed 14s&gt;&gt;[[&quot;Oh?&quot;|Coroner_9]]&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="37" name="NicolaDesk_4" tags="" position="850,475" size="100,100">The day passes by with little incidence. No new cases are brought up. No open cases are solved.
 
 &lt;&lt;if $greg3a&gt;&gt;[[Speak to Greg|Greg_3a1]]&lt;&lt;endif&gt;&gt;
 &lt;&lt;if $greg3b&gt;&gt;[[Speak to Greg|Greg_3b1]]&lt;&lt;endif&gt;&gt;
@@ -510,10 +510,10 @@ Nicola opens up the pizza box. Half pepperoni, half vegetarian. Same as it&#39;s
 She finishes the pepperoni half and closes the lid.
 &lt;&lt;endif&gt;&gt;
 &lt;&lt;set $food = 1&gt;&gt;
-[[&lt;--|NicolaHome_3]]</tw-passagedata><tw-passagedata pid="51" name="NicolaHome_3b" tags="" position="100,725" size="100,100">&lt;&lt;if $bath eq false&gt;&gt;Nicola goes to the bathroom, draws a bath and hops in.
-&lt;&lt;timed 5s&gt;&gt;[[&lt;--|NicolaHome_3]]&lt;&lt;/timed&gt;&gt;&lt;&lt;else&gt;&gt;
+[[Back|NicolaHome_3]]</tw-passagedata><tw-passagedata pid="51" name="NicolaHome_3b" tags="" position="100,725" size="100,100">&lt;&lt;if $bath eq false&gt;&gt;Nicola goes to the bathroom, draws a bath and hops in.
+&lt;&lt;timed 5s&gt;&gt;[[Back|NicolaHome_3]]&lt;&lt;/timed&gt;&gt;&lt;&lt;else&gt;&gt;
 &quot;I&#39;m clean enough thank you!&quot;
-[[&lt;--|NicolaHome_3]]
+[[Back|NicolaHome_3]]
 &lt;&lt;endif&gt;&gt;
 &lt;&lt;set $bath = true&gt;&gt;</tw-passagedata><tw-passagedata pid="52" name="NicolaBedroom_8" tags="" position="225,725" size="100,100">Nicola hasn&#39;t slept. She&#39;s been awake all night staring at the ceiling.
 
@@ -540,7 +540,7 @@ Nicola flicks through the channels again.
 &quot;Still nothing on.&quot;
 &lt;&lt;endif&gt;&gt;
 &lt;&lt;set $tv = true&gt;&gt;
-[[&lt;--|NicolaHome_3]]</tw-passagedata><tw-passagedata pid="56" name="NicolaHome_3d" tags="" position="725,725" size="100,100">Nicola turns everything off and heads to bed.
+[[Back|NicolaHome_3]]</tw-passagedata><tw-passagedata pid="56" name="NicolaHome_3d" tags="" position="725,725" size="100,100">Nicola turns everything off and heads to bed.
 
 [[Sleep|NicolaDream_1]]</tw-passagedata><tw-passagedata pid="57" name="ChiefOffice_1a" tags="" position="850,725" size="100,100">&quot;Well, it&#39;s good to have you back. Permit me to catch you up on what you&#39;ve missed: almost nothing.&quot;
 
@@ -582,7 +582,7 @@ Nicola flicks through the channels again.
 
 [[Go back inside|NicolaDesk_10]]&lt;&lt;/timed&gt;&gt;&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="62" name="NicolaHome_3e" tags="" position="225,850" size="100,100">Nicola takes a sip of wine.
 
-[[&lt;--|NicolaHome_3]]</tw-passagedata><tw-passagedata pid="63" name="ChiefOffice_1a1" tags="" position="350,850" size="100,100">&quot;Unfortunately, IA wants you to be supervised for the next week while you re-adjust. You won&#39;t be allowed out in the field until the supervisor signs off on you being ready to return to work.&quot;
+[[Back|NicolaHome_3]]</tw-passagedata><tw-passagedata pid="63" name="ChiefOffice_1a1" tags="" position="350,850" size="100,100">&quot;Unfortunately, IA wants you to be supervised for the next week while you re-adjust. You won&#39;t be allowed out in the field until the supervisor signs off on you being ready to return to work.&quot;
 
 Nicola sighs.
 
@@ -755,10 +755,10 @@ Nicola opens up the pizza box. Half pepperoni, half vegetarian. Same as it&#39;s
 She finishes the pepperoni half and closes the lid.
 &lt;&lt;endif&gt;&gt;
 &lt;&lt;set $food = 1&gt;&gt;
-[[&lt;--|NicolaHome_5]]</tw-passagedata><tw-passagedata pid="85" name="NicolaHome_5b" tags="" position="600,1100" size="100,100">&lt;&lt;if $bath eq false&gt;&gt;Nicola goes to the bathroom, draws a bath and hops in.
-&lt;&lt;timed 5s&gt;&gt;[[&lt;--|NicolaHome_5]]&lt;&lt;/timed&gt;&gt;&lt;&lt;else&gt;&gt;
+[[Back|NicolaHome_5]]</tw-passagedata><tw-passagedata pid="85" name="NicolaHome_5b" tags="" position="600,1100" size="100,100">&lt;&lt;if $bath eq false&gt;&gt;Nicola goes to the bathroom, draws a bath and hops in.
+&lt;&lt;timed 5s&gt;&gt;[[Back|NicolaHome_5]]&lt;&lt;/timed&gt;&gt;&lt;&lt;else&gt;&gt;
 &quot;I&#39;m clean enough thank you!&quot;
-[[&lt;--|NicolaHome_5]]
+[[Back|NicolaHome_5]]
 &lt;&lt;endif&gt;&gt;
 &lt;&lt;set $bath = true&gt;&gt;</tw-passagedata><tw-passagedata pid="86" name="NicolaDesk_7a" tags="" position="725,1100" size="100,100">&lt;&lt;if $connor eq false&gt;&gt;
 &quot;Great.&quot; Nicola thought. &quot;I have to be supervised by someone more depressed than me.  Why did the Chief have to pick? And why Mr. Q? If anything he&#39;s going to make me worse.&quot;
@@ -806,7 +806,7 @@ She reads the file.
 Narcotics trafficking &amp; manufacture.
 Weapons trafficking.
 
-[[&lt;--|NicolaHome_4]]</tw-passagedata><tw-passagedata pid="91" name="NicolaHome_6a" tags="" position="100,1225" size="100,100">One of the attackers looks at the open door and yells &quot;you can come in boss.&quot;
+[[Back|NicolaHome_4]]</tw-passagedata><tw-passagedata pid="91" name="NicolaHome_6a" tags="" position="100,1225" size="100,100">One of the attackers looks at the open door and yells &quot;you can come in boss.&quot;
 
 &lt;&lt;timed 5s&gt;&gt;Nicola sees an old man enter the room. Alberto Firenzia.&lt;&lt;/timed&gt;&gt;
 
@@ -845,9 +845,9 @@ Nicola flicks through the channels again.
 &quot;Still nothing on.&quot;
 &lt;&lt;endif&gt;&gt;
 &lt;&lt;set $tv = true&gt;&gt;
-[[&lt;--|NicolaHome_5]]</tw-passagedata><tw-passagedata pid="94" name="NicolaHome_5e" tags="" position="475,1225" size="100,100">Nicola takes a sip of wine.
+[[Back|NicolaHome_5]]</tw-passagedata><tw-passagedata pid="94" name="NicolaHome_5e" tags="" position="475,1225" size="100,100">Nicola takes a sip of wine.
 
-[[&lt;--|NicolaHome_5]]</tw-passagedata><tw-passagedata pid="95" name="NicolaDesk_7b" tags="" position="600,1225" size="100,100">&quot;Welcome Nicola.
+[[Back|NicolaHome_5]]</tw-passagedata><tw-passagedata pid="95" name="NicolaDesk_7b" tags="" position="600,1225" size="100,100">&quot;Welcome Nicola.
 You have two new cases assigned to you.
 You have three new messages.&quot;
 

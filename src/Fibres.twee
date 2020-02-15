@@ -7,7 +7,7 @@ Fibres
 	"ifid": "A3DAC051-20F3-40B5-9017-681E452E6D26",
 	"format": "SugarCube",
 	"format-version": "2.30.0",
-	"start": "Start",
+	"start": "NicolaHome_3",
 	"zoom": 1
 }
 
@@ -459,7 +459,7 @@ Nicola just sat there, stunned.
 
 <<timed 12s>>"This is sort of where I need you."<</timed>>
 
-<<timed 14s>>[["Oh?|Coroner_9]]<</timed>>
+<<timed 14s>>[["Oh?"|Coroner_9]]<</timed>>
 
 
 :: NicolaDesk_4 {"position":"850,475","size":"100,100"}
@@ -619,14 +619,14 @@ Nicola opens up the pizza box. Half pepperoni, half vegetarian. Same as it's bee
 She finishes the pepperoni half and closes the lid.
 <<endif>>
 <<set $food = 1>>
-[[<--|NicolaHome_3]]
+[[Back|NicolaHome_3]]
 
 
 :: NicolaHome_3b {"position":"100,725","size":"100,100"}
 <<if $bath eq false>>Nicola goes to the bathroom, draws a bath and hops in.
-<<timed 5s>>[[<--|NicolaHome_3]]<</timed>><<else>>
+<<timed 5s>>[[Back|NicolaHome_3]]<</timed>><<else>>
 "I'm clean enough thank you!"
-[[<--|NicolaHome_3]]
+[[Back|NicolaHome_3]]
 <<endif>>
 <<set $bath = true>>
 
@@ -669,7 +669,7 @@ Nicola flicks through the channels again.
 "Still nothing on."
 <<endif>>
 <<set $tv = true>>
-[[<--|NicolaHome_3]]
+[[Back|NicolaHome_3]]
 
 
 :: NicolaHome_3d {"position":"725,725","size":"100,100"}
@@ -739,7 +739,7 @@ Nicola finds her desk and sits down at it.
 :: NicolaHome_3e {"position":"225,850","size":"100,100"}
 Nicola takes a sip of wine.
 
-[[<--|NicolaHome_3]]
+[[Back|NicolaHome_3]]
 
 
 :: ChiefOffice_1a1 {"position":"350,850","size":"100,100"}
@@ -935,7 +935,7 @@ She reached out and touched the tree. <</timed>>
 :: NicolaDream_2b {"position":"1100,975","size":"100,100"}
 Nicola looks up again. This time the birds are gone and the sky has turned black.
 
-<<timed 5s>>She looks back down and sees a pebble on the ground.  She picks it up and feels it's smoothness. She turns it over to see a cross carved into the centre of it.<</timed>>
+<<timed 5s>>She looks back down and sees a pebble on the ground.  She picks it up and feels its smoothness. She turns it over to see a cross carved into the centre of it.<</timed>>
 
 <<timed 11s>>[[Wake up|NicolaBedroom_9]]<</timed>>
 
@@ -1000,14 +1000,14 @@ Nicola opens up the pizza box. Half pepperoni, half vegetarian. Same as it's bee
 She finishes the pepperoni half and closes the lid.
 <<endif>>
 <<set $food = 1>>
-[[<--|NicolaHome_5]]
+[[Back|NicolaHome_5]]
 
 
 :: NicolaHome_5b {"position":"600,1100","size":"100,100"}
 <<if $bath eq false>>Nicola goes to the bathroom, draws a bath and hops in.
-<<timed 5s>>[[<--|NicolaHome_5]]<</timed>><<else>>
+<<timed 5s>>[[Back|NicolaHome_5]]<</timed>><<else>>
 "I'm clean enough thank you!"
-[[<--|NicolaHome_5]]
+[[Back|NicolaHome_5]]
 <<endif>>
 <<set $bath = true>>
 
@@ -1075,7 +1075,7 @@ She reads the file.
 Narcotics trafficking & manufacture.
 Weapons trafficking.
 
-[[<--|NicolaHome_4]]
+[[Back|NicolaHome_4]]
 
 
 :: NicolaHome_6a {"position":"100,1225","size":"100,100"}
@@ -1108,7 +1108,7 @@ Alberto bent down and met Nicola face-to-face.  "Boys, dose her." He winked.<</t
 
 
 :: NicolaHome_6 {"position":"225,1225","size":"100,100"}
-Nicola walks to front door and opens it.
+Nicola walks to the front door and opens it.
 
 <<timed 4s>>In burst three people dressed entirely in black. Faces covered apart from their eyes.<</timed>>
 
@@ -1126,13 +1126,13 @@ Nicola flicks through the channels again.
 "Still nothing on."
 <<endif>>
 <<set $tv = true>>
-[[<--|NicolaHome_5]]
+[[Back|NicolaHome_5]]
 
 
 :: NicolaHome_5e {"position":"475,1225","size":"100,100"}
 Nicola takes a sip of wine.
 
-[[<--|NicolaHome_5]]
+[[Back|NicolaHome_5]]
 
 
 :: NicolaDesk_7b {"position":"600,1225","size":"100,100"}
@@ -1445,8 +1445,7 @@ Nicola lands on the ground.
 
 :: NicolaDream_3e1 {"position":"850,1475","size":"100,100"}
 It is too dark to see inside the hole.
-
-<<back>.
+<<back>>
 
 
 :: NicolaDream_3e2 {"position":"975,1475","size":"100,100"}
@@ -1472,7 +1471,7 @@ Nicola turns around to see that the sky has turned black.
 
 <<timed 15s>>There are some bright lights heading towards her.
 
-[[next|NicolaDream_3h]]
+[[Next|NicolaDream_3h]]
 <</timed>>
 
 
@@ -1483,9 +1482,9 @@ Three cops enter, torches and pistols leading the way.
 
 Two of them head towards the kitchen and bathroom.
 
-The final one walks into the bedroom only to find Nicola hanging from a rope connected to a newly exposed beam.
+The final one walks into the bedroom only to find Nicola hanging from a rope connected to a freshly exposed beam.
 
-[[next|EndFibres_Part1]]
+[[Next|EndFibres_Part1]]
 
 
 :: EndFibres_Part1 {"position":"225,1600","size":"100,100"}
